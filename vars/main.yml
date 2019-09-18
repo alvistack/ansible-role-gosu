@@ -15,7 +15,7 @@
 # limitations under the License.
 
 _gosu_download:
-  1.11.x:
+  "1.11":
     url: "https://github.com/tianon/gosu/releases/download/1.11/gosu-amd64"
-    dest: "/var/cache/ansible/gosu-1.11.x-amd64"
+    dest: "/var/cache/ansible/gosu-1.11-amd64"
     checksum: "sha1:1bf0bc898c8f8792e87a112f6a0c174475672aa8"
