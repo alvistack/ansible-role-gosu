@@ -76,7 +76,10 @@
   shell: |
     set -o pipefail
     cd /usr/local/bin
-    TMP_DIR="`mktemp -d`" && cp {{ gosu_download.dest }} $TMP_DIR/gosu && mv $TMP_DIR/gosu . && rm -rf $TMP_DIR
+    TMP_DIR="`mktemp -d`" \
+      && cp {{ gosu_download.dest }} $TMP_DIR/gosu \
+      && mv $TMP_DIR/gosu . \
+      && rm -rf $TMP_DIR
   args:
     executable: "/bin/bash"
   when: get_url_result is changed
