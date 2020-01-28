@@ -80,6 +80,8 @@
       && cp {{ gosu_download.dest }} $TMP_DIR/gosu \
       && mv $TMP_DIR/gosu . \
       && rm -rf $TMP_DIR
+    chown root:root /usr/local/bin/gosu
+    chmod 0755 /usr/local/bin/gosu
   args:
     executable: "/bin/bash"
   when: get_url_result is changed
