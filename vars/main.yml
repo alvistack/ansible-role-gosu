@@ -15,6 +15,10 @@
 # limitations under the License.
 
 _gosu_download:
+  "1.12":
+    url: "https://github.com/tianon/gosu/releases/download/1.12/gosu-amd64"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/gosu-1.12-amd64"
+    checksum: "sha1:31b681f0a63ae5000d303c88b5e44a3ff54d9339"
   "1.11":
     url: "https://github.com/tianon/gosu/releases/download/1.11/gosu-amd64"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/gosu-1.11-amd64"
