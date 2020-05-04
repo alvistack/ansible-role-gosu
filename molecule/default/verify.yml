@@ -18,9 +18,9 @@
   remote_user: root
   become: true
   tasks:
-    - name: gosu --help
+    - name: gosu --version
       environment:
         PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-      command: gosu --help
+      command: gosu --version
       register: result
       changed_when: result is not succeeded
