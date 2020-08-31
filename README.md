@@ -1,7 +1,7 @@
 # Ansible Role for gosu
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-gosu.svg)](https://travis-ci.com/alvistack/ansible-role-gosu)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-gosu.svg)](https://github.com/alvistack/ansible-role-gosu)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-gosu.svg)](https://github.com/alvistack/ansible-role-gosu/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-gosu.svg)](https://github.com/alvistack/ansible-role-gosu/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.gosu-blue.svg)](https://galaxy.ansible.com/alvistack/gosu)
 
