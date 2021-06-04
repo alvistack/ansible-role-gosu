@@ -14,6 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_gosu_version:
+  "1.12": "1.12"
+  "1.11": "1.11"
+
 _gosu_download:
   "1.12":
     url: "http://github.com/tianon/gosu/releases/download/1.12/gosu-amd64"
