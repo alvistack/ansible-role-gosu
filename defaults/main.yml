@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # gosu release.
-gosu_release: "1.12"
+gosu_release: "1.13"
 
 # gosu version.
 gosu_version: "{{ _gosu_version[gosu_release] }}"
