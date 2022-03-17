@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: gosu --version
-      command: gosu --version
+      ansible.builtin.command: gosu --version
       register: result
       changed_when: result is not succeeded
