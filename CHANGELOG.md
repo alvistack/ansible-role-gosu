@@ -1,6 +1,10 @@
 # Ansible Role for gosu
 
-## 11.1.0 - TBC
+## 11.2.0 - TBC
+
+## 11.1.0 - 2024-12-04
+
+- Support Ansible community package 11.1.0
 
 ## 11.0.0 - 2024-11-20
 
